@@ -1,10 +1,10 @@
 import React from "react";
 import "./style.css";
 
-function Square({nome, event, id}){
+function Square({value, event}){
    return(
-    <button id={id} onClick={event}>
-        {nome}
+    <button onClick={event}>
+        {value}
     </button>
    );
 }

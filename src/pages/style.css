@@ -21,3 +21,9 @@
     grid-gap: 4px;
     border-radius: 12px;
 }
+
+select{
+    width: 320px;
+    padding: 8px;
+    border-radius: 8px;
+}
